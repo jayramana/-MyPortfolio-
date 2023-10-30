@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 36px;
+}
+
+.in {
+  display: flex;
+}
+.title {
+  align-self: center;
+}
+body {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  font-family: "Montserrat";
+  margin-bottom: 2rem;
+}
+.nav-bar {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.name {
+  display: inline-block;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(18), cursor 0.4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+.img {
+  border-radius: 11px;
+      height: 100%;
+  width: 250px;
+  transition: all 0.4s;
+}
+.img:hover{
+  box-shadow: 0 1px 20px rgba(252, 249, 249, 0.944), 0 2px 16px rgba(255, 253, 253, 0.905);
+
+}
+.image {
+  align-self: center;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  font-family: "Nunito Sans";
+  letter-spacing: 0.8px;
+  height: 65vh;
+  margin-bottom: 1rem;
+}
+
+.intr {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: x-large;
+  margin-bottom: 0.8rem;
+}
+
+.name {
+  letter-spacing: 9px;
+  color: #a5d8ff;
+  display: inline;
+  font-size: xx-large;
+}
+
+.highlight {
+  display: inline;
+  color: #38d9a9;
+  text-transform: uppercase;
+}
+
+.hello {
+  max-width: 50%;
+}
+
+.info {
+  margin-top: 3rem;
+  font-size: 18px;
+  line-height: 2rem;
+  text-align: justify;
+  color: #f8f9fa;
+}
+
+.abtme {
+  padding: 3rem;
+  padding-top: 0;
+  height: 100vh;
+  margin-bottom: 2rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  font-family: "Montserrat";
+  color: #adb5bd;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.abtcont {
+  font-family: "Nunito Sans";
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.a {
+  color: #ff9b3d;
+}
+
+.icon {
+  height: 24px;
+  transition: all 0.3s;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto Slab";
+  margin-bottom: 0.3rem;
+  font-size: 1.3rem;
+}
+
+.par {
+  font-family: "Nunito Sans";
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.chef {
+  height: 50px;
+}
+
+.skills {
+  height: 100vh;
+}
+.con {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 75%;
+  margin-bottom: 3rem;
+}
+.texts{
+  max-width: 75%;
+}
+
+.plicon {
+  height: 75px;
+  margin-bottom: 1rem;
+  transition: all 0.3s;
+}
+
+.plname {
+  font-family: "Roboto Slab";
+}
+
+.S {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  transition: all 0.3s;
+  height: fit-content;
+}
+
+.skills {
+  display: grid;
+  width: fit-content;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 200px);
+  height: fit-content;
+  align-self: center;
+}
+.skillsall {
+  margin-top: 8rem;
+  padding: 3rem;
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+}
+.k {
+  position: absolute;
+  width: fit-content;
+  transform: translateY(-70px);
+}
+
+.learn {
+  display: grid;
+  align-self: center;
+  column-gap: 1rem;
+  width: fit-content;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(2, 200px);
+}
+
+.pr {
+  max-width: 80%;
+}
+
+.proj {
+  display: flex;
+}
+
+.prodes {
+  max-width: 30%;
+  align-self: center;
+  font-family: "Nunito Sans";
+  line-height: 2.5rem;
+  letter-spacing: 0.2rem;
+  color: #c5f6fa;
+
+  font-size: 1.2rem;
+}
+.progress {
+  transform: translate(350px, 120px);
+  position: absolute;
+  border: 1px solid;
+  max-width: fit-content;
+  padding: 0.4rem;
+  display: none;
+}
+
+.ii {
+  margin-bottom: 2rem;
+}
+
+.exp {
+  font-family: "Roboto Slab";
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.plicon:hover {
+  transform: translateY(-10px);
+}
+
+.myproj {
+  padding: 3rem;
+  margin-bottom: 4rem;
+}
+
+.change {
+  position: absolute;
+  transform: translate(100px, 80px);
+}
+
+.lst {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.f:hover {
+  filter: grayscale(100%);
+}
+
+.abtimg{
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  border-radius: 50%;
+  box-shadow: #f8f9fa4a 0px 7px 29px 0px;
+}
+
+.images{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 2rem;
+
+}
+
+.q{
+  grid-row: 1/2;
+}
+
+.w{
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.e{
+  grid-column: 3;
+}
+
+.r{
+  grid-row: 3;
+}
+
+.t{
+  grid-row: 3;
+  grid-column: 3;
+}
+
+a{
+  text-decoration: none;
+color: white;
+padding: 1rem;
+transition: all 0.5s;
+}
+
+a:hover{
+  background-color: #ff922b;
+  color: black;
+  border-radius: 11px;
+}
