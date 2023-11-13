@@ -337,7 +337,7 @@ padding: 1rem;
 transition: all 0.5s;
 }
 
-a:hover{
+.n:hover{
   background-color: #ff922b;
   color: black;
   border-radius: 11px;
